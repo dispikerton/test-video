@@ -4,9 +4,9 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 
 import org.junit.jupiter.api.Test;
 
-class TestTimeout {
+class TestTimeout2 {
   @Test
-  void testTimeout1() throws InterruptedException {
+  void testTimeout() throws InterruptedException {
     Thread.sleep(3000);
     assertTrue(true);
   }
